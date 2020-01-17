@@ -1,0 +1,4 @@
+<launch>
+    <env name="REACHABILITY_CONFIG_DIR" value="$(find ur5_robotiq_reachability_config)/data"  />
+    <node name="ur5_robotiq_reachability_energy_plugin" pkg="ur5_robotiq_reachability_config" type="launch_graspit.sh" output="screen" />
+</launch>
